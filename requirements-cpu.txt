@@ -1,0 +1,9 @@
+omegaconf
+matplotlib
+PyMuPDF
+ultralytics
+doclayout-yolo
+unimernet
+paddlepaddle
+paddleocr
+struct-eqtable
