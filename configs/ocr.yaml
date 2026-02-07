@@ -3,10 +3,10 @@ outputs: outputs/ocr
 visualize: True
 tasks:
   ocr:
-    model: ocr_ppocr
+    model: en_PP-OCRv5_rec_infer
     model_config:
       lang: ch
       show_log: True
-      det_model_dir: models/OCR/PaddleOCR/det/ch_PP-OCRv4_det
-      rec_model_dir: models/OCR/PaddleOCR/rec/ch_PP-OCRv4_rec
+      det_model_dir: /storage/PDF-Extract-Kit-sp/models/OCR/paddleocr_torch/
+      rec_model_dir: /storage/PDF-Extract-Kit-sp/models/OCR/paddleocr_torch/
       det_db_box_thresh: 0.3
